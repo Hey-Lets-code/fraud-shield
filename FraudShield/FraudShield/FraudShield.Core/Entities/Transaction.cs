@@ -7,5 +7,7 @@ public class Transaction
     public decimal Amount { get; set; }
     public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 
-
+    public string Location { get; set; } = string.Empty;
+    public string DeviceId { get; set; } = string.Empty;
+    public bool IsFraud { get; set; } = false;
 }
