@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FraudShield.Api/FraudShield.Api.csproj" />
+  <Project Path="FraudShield.Core/FraudShield.Core.csproj" />
+  <Project Path="FraudShield.Infrastructure/FraudShield.Infrastructure.csproj" />
+</Solution>
